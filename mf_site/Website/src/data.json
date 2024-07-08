@@ -1,0 +1,124 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Maquilhagem Noiva",
+      "description": "Não sei que escrever...",
+      "main": true,
+      "pics": [
+        "../assets/servicePics/noiva1.svg",
+        "../assets/servicePics/noiva2.svg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Maquilhagem Social",
+      "description": "Maquilhagem adaptada ao rosto e gostos da cliente, de longa duração, inclui aplicação de pestanas postiças.",
+      "main": true,
+      "pics": [
+        "../assets/servicePics/social1.svg",
+        "../assets/servicePics/social2.svg"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Maquilhagem para Sessão Fotográfica",
+      "description": "Maquilhagem corretiva com o intuito de realçar a beleza dos pontos fortes do rosto nas fotos.",
+      "main": false,
+      "pics": [
+        "../assets/servicePics/noiva1.svg",
+        "../assets/servicePics/noiva2.svg"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Maquilhagem para TV",
+      "description": "Não há.",
+      "main": false,
+      "pics": [
+        "../assets/servicePics/noiva1.svg",
+        "../assets/servicePics/noiva2.svg"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Workshop Individual de Auto Maquilhagem",
+      "description": "É um workshop totalmente adaptado as dificuldades da formanda na auto-maquilhagem, inclui identificar o tipo de pele, rotina de cuidados com a pele, maquilhagem social completa adequada ao tipo de rosto e cores, análise da coloração pessoal, montar o Kit individual de auto-maquilhagem adequado. Oferta de cartela de cores em formato PDF, esponja de maquilhagem e certificado.",
+      "main": true,
+      "pics": [
+        "../assets/servicePics/work1.svg",
+        "../assets/servicePics/work2.svg"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Workshop de Auto Maquilhagem em Grupo",
+      "description": "Identificar o tipo de pele, Rotina diária de cuidados com a pele, maquilhagem social para o dia a dia, montar o kit de auto-maquilhagem. Oferta de esponja de maquilhagem e certificado.",
+      "main": false,
+      "pics": [
+        "../assets/servicePics/work1.svg",
+        "../assets/servicePics/work2.svg"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Análise de Coloração Pessoal",
+      "description": "Existem cores que, quando as utilizamos, favorecem mais a nossa beleza natural, e outras, pelo contrário, não nos ficam bem. Assim sendo, o estudo da coloração pessoal serve par identificar as cores que mais favorecem a nossa beleza, tanto no que se refere à maquilhagem como à roupa.",
+      "main": false,
+      "pics": [
+        "../assets/servicePics/work1.svg",
+        "../assets/servicePics/work2.svg"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Microblading",
+      "description": "Microblading é uma técnica de maquilhagem semipermanente, que permite a quem sofreu perda de pelos na sobrancelha ou tem pouco densas, ter sobrancelhas bonitas e naturais.",
+      "main": true,
+      "pics": [
+        "../assets/servicePics/micro1.svg",
+        "../assets/servicePics/micro2.svg"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Design de Sobrancelhas",
+      "description": "Através de medições e estudo do rosto, desenha-se o formato de sobrancelha ideal para aquele rosto, é extraído o pelo em excesso com linha e pinça e recomenda-se á cliente onde não deve tirar pelo,para que esta se mantenha bonita e cuidada.",
+      "main": false,
+      "pics": [
+        "../assets/servicePics/micro1.svg",
+        "../assets/servicePics/micro2.svg"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Lifting de pestanas",
+      "description": "O lifting de pestanas é um tratamento que dá maior curvatura às pestanas, mas sem perder a naturalidade; É indolor; Dura, em média, um a dois meses; A longo prazo faz com que as pestanas fiquem mais fortes; É aplicada uma tinta nas pestanas dando aspetos de que estas têm mascara de pestanas; Não necessita de nenhum cuidado especifico, podendo a cliente maquilhar-se normalmente no seu dia a dia.",
+      "main": false,
+      "pics": [
+        "../assets/servicePics/micro1.svg",
+        "../assets/servicePics/micro2.svg"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Extensão de pestanas",
+      "description": "Volume às pestanas através de tufos ou fios individuais",
+      "main": false,
+      "pics": [
+        "../assets/servicePics/micro1.svg",
+        "../assets/servicePics/micro2.svg"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Brow Lamination",
+      "description": "Técnica ideal para quem tem a sobrancelha 'rebelde' e quer deixar os pelinhos mais alinhados. Também dá o efeito de sobrancelha mais preenchida e volumosa",
+      "main": false,
+      "pics": [
+        "../assets/servicePics/micro1.svg",
+        "../assets/servicePics/micro2.svg"
+      ]
+    }
+  ]
+}

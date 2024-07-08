@@ -1,0 +1,23 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  background-color: #fbeff2;
+  color: #543b40;
+  font-family: "Quicksand";
+  font-size: 16px;
+}
+
+.title {
+  font-family: "Otama.ep", sans-serif;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+a {
+  text-decoration: none;
+  color: #543b40;
+}
