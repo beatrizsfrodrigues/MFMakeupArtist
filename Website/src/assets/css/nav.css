@@ -1,14 +1,12 @@
 #nav {
-  background-color: #f6dfe4;
+  background-color: #fff7fe;
   height: 65px;
   width: 100%;
-  margin: 0px;
-  padding: 0px;
+  padding-top: 4px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  z-index: 2;
 }
 
 #logo {

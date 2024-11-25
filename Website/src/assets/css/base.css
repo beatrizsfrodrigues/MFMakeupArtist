@@ -3,10 +3,11 @@ body {
   width: 100vw;
   margin: 0px;
   padding: 0px;
-  background-color: #fbeff2;
   color: #543b40;
-  font-family: "Quicksand";
+  font-family: "Nunito";
   font-size: 16px;
+  background: linear-gradient(168deg, #fff7fe 48.5%, #f8d9de 100%);
+  background-attachment: fixed;
 }
 
 .title {
@@ -20,4 +21,66 @@ h1 {
 a {
   text-decoration: none;
   color: #543b40;
+}
+
+@media only screen and (max-width: 600px) {
+  #app {
+    margin: 0px;
+  }
+
+  .mainBody {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 40px 80px 40px;
+    gap: 64px;
+  }
+
+  h1 {
+    font-family: "Noto Serif";
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 0px;
+  }
+
+  h2 {
+    font-family: "Noto Serif";
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+
+  h3 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+
+  p {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+
+  button {
+    display: flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 16px;
+    border: 2px solid #a88ca2;
+    background: linear-gradient(146deg, #fff4fe 31.4%, #f8d9de 104.4%);
+  }
+
+  .section {
+    display: grid;
+    grid-gap: 32px;
+  }
+
+  .input {
+    height: 40px;
+    border-radius: 16px;
+    border: 2px solid #b3abb2;
+    background: #fff7fe;
+  }
 }

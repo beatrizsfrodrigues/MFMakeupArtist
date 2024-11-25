@@ -1,11 +1,10 @@
 <template>
   <div id="nav">
     <router-link to="/"
-      ><img id="logo" src="../assets/otherPics/logo.svg" alt=""
+      ><img id="logo" src="../assets/otherPics/logo_dark.svg" alt=""
     /></router-link>
     <div id="links">
-      <router-link to="/"><p class="navLink">Início</p></router-link>
-      <router-link to="/services"> <p class="navLink">Serviços</p></router-link>
+      <router-link to="/contacts" class="navLink"><p>menu</p></router-link>
     </div>
   </div>
 </template>

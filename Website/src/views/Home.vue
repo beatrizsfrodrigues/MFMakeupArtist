@@ -1,50 +1,87 @@
 <template>
-  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" id="back">
-    <ellipse
-      id="back2"
-      cx="18"
-      cy="23"
-      rx="10"
-      ry="4"
-      transform="rotate(20 40 64)"
-    />
-    <ellipse
-      id="back1"
-      cx="16"
-      cy="24"
-      rx="10"
-      ry="4"
-      transform="rotate(20 40 60)"
-    />
-  </svg>
-
-  <div id="basicInfo">
-    <div id="left">
-      <div>
-        <h1 class="title">Mónica Ferreira</h1>
-        <img id="pincel" src="../assets/otherPics/pincel.svg" alt="" />
-        <img id="batom" src="../assets/otherPics/batom.svg" alt="" />
-      </div>
-      <p>
-        O meu nome é Mónica Ferreira, tenho 37 anos e desde pequena que sou
-        apaixonada por maquilhagem. Apesar de, inicialmente, ter enveredado por
-        outra área, sempre maquilhei familiares e amigas e em 2013 decidi
-        formar-me como Maquilhadora Profissional, na escola Formandum com a
-        formadora Paula Lage e desde então nunca mais parei…
-      </p>
+  <div class="mainBody">
+    <div id="homeDiv">
+      <img id="pfp" src="../assets/otherPics/pfp.svg" alt="" />
+      <h1>Maquilhadora Profissional</h1>
+      <h2>Mónica Ferreira</h2>
+      <p>Especializada em maquilhagem para casamentos.</p>
     </div>
-    <img id="selfPic" src="../assets/otherPics/monica.png" alt="" />
-  </div>
-  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="lines">
-    <line x1="-10" y1="80" x2="150" y2="20" />
-    <line x1="-10" y1="50" x2="100" y2="00" />
-    <line x1="-10" y1="10" x2="100" y2="20" />
-  </svg>
-  <div id="awards">
-    <img id="pincel" src="../assets/awards/casamentosPT2.png" alt="" />
-    <img id="pincel" src="../assets/awards/zankyou.png" alt="" />
-    <img id="pincel" src="../assets/awards/weddingAwards.png" alt="" />
-    <img id="pincel" src="../assets/awards/casamentosPT.png" alt="" />
+    <div class="section">
+      <h1>Galeria</h1>
+      <div id="galleryPhotoDiv">
+        <img
+          src="../assets/servicePics/casamento/photo_2024-05-15_19-30-33.jpg"
+          alt="imagem"
+          class="galleryImg"
+        />
+        <img
+          src="../assets/servicePics/casamento/photo_2024-05-15_19-30-33.jpg"
+          alt="imagem"
+          class="galleryImg"
+        />
+        <img
+          src="../assets/servicePics/casamento/photo_2024-05-15_19-30-33.jpg"
+          alt="imagem"
+          class="galleryImg"
+        />
+      </div>
+    </div>
+    <div class="section">
+      <h1>Serviços</h1>
+      <div id="contentServiceDiv">
+        <div class="serviceBorder">
+          <div class="serviceBorder2">
+            <img src="../assets/otherPics/adorn.svg" class="adorn1" alt="" />
+            <div class="serviceContent">
+              <h3>Maquilhagem de casamento</h3>
+              <img
+                src="../assets/servicePics/casamento/photo_2024-05-15_19-30-33.jpg"
+                alt="imagem"
+                class="serviceImg"
+              />
+              <button>Saber mais</button>
+            </div>
+            <img src="../assets/otherPics/adorn.svg" class="adorn2" alt="" />
+          </div>
+        </div>
+        <div class="serviceBorder">
+          <div class="serviceBorder2">
+            <img src="../assets/otherPics/adorn.svg" class="adorn1" alt="" />
+            <div class="serviceContent">
+              <h3>Maquilhagem de casamento</h3>
+              <img
+                src="../assets/servicePics/casamento/photo_2024-05-15_19-30-33.jpg"
+                alt="imagem"
+                class="serviceImg"
+              />
+              <button>Saber mais</button>
+            </div>
+            <img src="../assets/otherPics/adorn.svg" class="adorn2" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <h1>Selos de Recomendação</h1>
+      <div>
+        <img
+          src="../assets/awards/casamentosPT.png"
+          alt="imagem"
+          class="awards"
+        />
+        <img
+          src="../assets/awards/casamentosPT2.png"
+          alt="imagem"
+          class="awards"
+        />
+        <img
+          src="../assets/awards/weddingAwards.png"
+          alt="imagem"
+          class="awards"
+        />
+        <img src="../assets/awards/zankyou.png" alt="imagem" class="awards" />
+      </div>
+    </div>
   </div>
 </template>
 

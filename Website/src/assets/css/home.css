@@ -1,70 +1,78 @@
-#basicInfo {
-  background-color: #f6dfe4;
-  height: 100vh;
-  margin: 0px;
-  padding: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+@media only screen and (max-width: 600px) {
+  #homeDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin-bottom: -200px;
+  }
 
-#back {
-  position: absolute;
-}
-#back1 {
-  fill: #dbacb6;
-  opacity: 0.8;
-}
-#back2 {
-  fill: #eec3cc;
-  opacity: 0.8;
-}
+  #galleryPhotoDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 
-#left {
-  margin-left: 12%;
-  width: 650px;
-  text-align: center;
-}
+  .galleryImg {
+    width: 273px;
+    height: 342px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
 
-#left > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 0;
-  position: relative;
-  margin-bottom: -8px;
-}
+  #contentServiceDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
 
-#pincel {
-  z-index: 1;
-}
+  .serviceBorder {
+    display: inline-block;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 8px;
+    border-radius: 16px;
+    border: 2px solid #b3abb2;
+  }
 
-#batom {
-  position: absolute;
-  right: 16%;
-}
+  .serviceBorder2 {
+    display: flex;
+    padding: 1px 42px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border-radius: 12px;
+    border: 2px solid #b3abb2;
+    background: rgba(244, 216, 238, 0.2);
+  }
 
-#selfPic {
-  height: 60%;
-  border-radius: 8px;
-  margin-right: 12%;
-  opacity: 0.9;
-}
+  .adorn1 {
+    margin-top: -3px;
+  }
 
-.lines {
-  position: absolute;
-  stroke: #f8d9de;
-  stroke-width: 0.1;
-  z-index: -1;
-}
+  .adorn2 {
+    transform: rotate(180deg);
+    margin-bottom: -3px;
+  }
 
-#awards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .serviceContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
 
-#awards img {
-  margin: 16px;
-  width: 200px;
+  .serviceImg {
+    width: 221px;
+    height: 242px;
+    border-radius: 8px;
+    border: 2px solid #b3abb2;
+    object-fit: cover;
+  }
 }

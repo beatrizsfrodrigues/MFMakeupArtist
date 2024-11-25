@@ -1,4 +1,5 @@
 <script setup>
+import { RouterLink, RouterView } from "vue-router";
 import Home from "./views/Home.vue";
 import NavB from "./components/Nav.vue";
 import Footer from "./components/Footer.vue";
@@ -6,7 +7,7 @@ import Footer from "./components/Footer.vue";
 
 <template>
   <NavB />
-  <Home />
+  <router-view />
   <Footer />
 </template>
 
