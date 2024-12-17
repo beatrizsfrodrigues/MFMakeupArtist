@@ -50,6 +50,10 @@
     border: 2px solid #b3abb2;
     background: rgba(244, 216, 238, 0.2);
   }
+  .serviceName {
+    width: 200px;
+    text-align: center;
+  }
 
   .adorn1 {
     margin-top: -3px;

@@ -39,7 +39,7 @@
                 alt="imagem"
                 class="serviceImg"
               />
-              <button>Saber mais</button>
+              <button class="button">Saber mais</button>
             </div>
             <img src="../assets/otherPics/adorn.svg" class="adorn2" alt="" />
           </div>
@@ -54,7 +54,7 @@
                 alt="imagem"
                 class="serviceImg"
               />
-              <button>Saber mais</button>
+              <button class="button">Saber mais</button>
             </div>
             <img src="../assets/otherPics/adorn.svg" class="adorn2" alt="" />
           </div>

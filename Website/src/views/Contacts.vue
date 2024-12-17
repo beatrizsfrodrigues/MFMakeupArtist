@@ -23,7 +23,7 @@
       />
       <label for="">Notas</label>
       <textarea class="input" name="" id=""></textarea>
-      <button>Enviar</button>
+      <button class="button">Enviar</button>
     </form>
   </div>
 </template>

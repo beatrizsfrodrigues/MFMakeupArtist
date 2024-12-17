@@ -61,7 +61,7 @@ a {
     margin-bottom: 0px;
   }
 
-  button {
+  .button {
     display: flex;
     padding: 12px 20px;
     justify-content: center;

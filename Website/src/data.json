@@ -2,9 +2,10 @@
   "services": [
     {
       "id": 1,
-      "name": "Maquilhagem Noiva",
+      "name": "Maquilhagem de Noiva",
       "description": "Não sei que escrever...",
       "main": true,
+      "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460185/servicePics/casamento/u2zpk4eq5voua4rxpqre.jpg",
       "pics": [
         "../assets/servicePics/noiva1.svg",
         "../assets/servicePics/noiva2.svg"
@@ -15,6 +16,7 @@
       "name": "Maquilhagem Social",
       "description": "Maquilhagem adaptada ao rosto e gostos da cliente, de longa duração, inclui aplicação de pestanas postiças.",
       "main": true,
+      "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460200/servicePics/social/cyv5nh9tq01caigoabtt.jpg",
       "pics": [
         "../assets/servicePics/social1.svg",
         "../assets/servicePics/social2.svg"
@@ -25,6 +27,7 @@
       "name": "Maquilhagem para Sessão Fotográfica",
       "description": "Maquilhagem corretiva com o intuito de realçar a beleza dos pontos fortes do rosto nas fotos.",
       "main": false,
+      "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460194/servicePics/fotografia/jhnlbj31kounxdvr33xd.jpg",
       "pics": [
         "../assets/servicePics/noiva1.svg",
         "../assets/servicePics/noiva2.svg"
@@ -35,6 +38,7 @@
       "name": "Maquilhagem para TV",
       "description": "Não há.",
       "main": false,
+      "mainPicture": "https://images.unsplash.com/photo-1512462629038-1ff3395c5e5d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "pics": [
         "../assets/servicePics/noiva1.svg",
         "../assets/servicePics/noiva2.svg"
@@ -45,6 +49,7 @@
       "name": "Workshop Individual de Auto Maquilhagem",
       "description": "É um workshop totalmente adaptado as dificuldades da formanda na auto-maquilhagem, inclui identificar o tipo de pele, rotina de cuidados com a pele, maquilhagem social completa adequada ao tipo de rosto e cores, análise da coloração pessoal, montar o Kit individual de auto-maquilhagem adequado. Oferta de cartela de cores em formato PDF, esponja de maquilhagem e certificado.",
       "main": true,
+      "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460204/servicePics/workshop_individual/cfgwmkdze4esq4xf11au.jpg",
       "pics": [
         "../assets/servicePics/work1.svg",
         "../assets/servicePics/work2.svg"
@@ -55,6 +60,7 @@
       "name": "Workshop de Auto Maquilhagem em Grupo",
       "description": "Identificar o tipo de pele, Rotina diária de cuidados com a pele, maquilhagem social para o dia a dia, montar o kit de auto-maquilhagem. Oferta de esponja de maquilhagem e certificado.",
       "main": false,
+      "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460202/servicePics/workshop_grupo/qqk6st7l6ryktfzjxbfz.jpg",
       "pics": [
         "../assets/servicePics/work1.svg",
         "../assets/servicePics/work2.svg"
@@ -65,6 +71,7 @@
       "name": "Análise de Coloração Pessoal",
       "description": "Existem cores que, quando as utilizamos, favorecem mais a nossa beleza natural, e outras, pelo contrário, não nos ficam bem. Assim sendo, o estudo da coloração pessoal serve par identificar as cores que mais favorecem a nossa beleza, tanto no que se refere à maquilhagem como à roupa.",
       "main": false,
+      "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460190/servicePics/coloracao/bpbc8ku8oiqvnkkselxw.jpg",
       "pics": [
         "../assets/servicePics/work1.svg",
         "../assets/servicePics/work2.svg"
@@ -75,6 +82,7 @@
       "name": "Microblading",
       "description": "Microblading é uma técnica de maquilhagem semipermanente, que permite a quem sofreu perda de pelos na sobrancelha ou tem pouco densas, ter sobrancelhas bonitas e naturais.",
       "main": true,
+      "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460197/servicePics/microblading/wr1crdb40mvftl2n3zei.jpg",
       "pics": [
         "../assets/servicePics/micro1.svg",
         "../assets/servicePics/micro2.svg"
@@ -85,6 +93,7 @@
       "name": "Design de Sobrancelhas",
       "description": "Através de medições e estudo do rosto, desenha-se o formato de sobrancelha ideal para aquele rosto, é extraído o pelo em excesso com linha e pinça e recomenda-se á cliente onde não deve tirar pelo,para que esta se mantenha bonita e cuidada.",
       "main": false,
+      "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460191/servicePics/design/hmwlgmfysgrtyr1no1dw.jpg",
       "pics": [
         "../assets/servicePics/micro1.svg",
         "../assets/servicePics/micro2.svg"
@@ -95,6 +104,7 @@
       "name": "Lifting de pestanas",
       "description": "O lifting de pestanas é um tratamento que dá maior curvatura às pestanas, mas sem perder a naturalidade; É indolor; Dura, em média, um a dois meses; A longo prazo faz com que as pestanas fiquem mais fortes; É aplicada uma tinta nas pestanas dando aspetos de que estas têm mascara de pestanas; Não necessita de nenhum cuidado especifico, podendo a cliente maquilhar-se normalmente no seu dia a dia.",
       "main": false,
+      "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460195/servicePics/lifting/uv8jcynnuvew8vtlsbsd.jpg",
       "pics": [
         "../assets/servicePics/micro1.svg",
         "../assets/servicePics/micro2.svg"
@@ -105,6 +115,7 @@
       "name": "Extensão de pestanas",
       "description": "Volume às pestanas através de tufos ou fios individuais",
       "main": false,
+      "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460192/servicePics/extens%C3%A3o/wdzplrqfbchhdgxrxpmu.jpg",
       "pics": [
         "../assets/servicePics/micro1.svg",
         "../assets/servicePics/micro2.svg"
@@ -115,6 +126,7 @@
       "name": "Brow Lamination",
       "description": "Técnica ideal para quem tem a sobrancelha 'rebelde' e quer deixar os pelinhos mais alinhados. Também dá o efeito de sobrancelha mais preenchida e volumosa",
       "main": false,
+      "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460194/servicePics/lamination/yut7g5t3w88wgee1fxex.jpg",
       "pics": [
         "../assets/servicePics/micro1.svg",
         "../assets/servicePics/micro2.svg"
