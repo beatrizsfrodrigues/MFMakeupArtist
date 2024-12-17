@@ -1,7 +1,11 @@
 <template>
   <div class="mainBody">
     <div id="homeDiv">
-      <img id="pfp" src="../assets/otherPics/pfp.svg" alt="" />
+      <img
+        id="pfp"
+        src="https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734469347/pfp_bn9fkl.svg"
+        alt=""
+      />
       <h1>Maquilhadora Profissional</h1>
       <h2>Mónica Ferreira</h2>
       <p>Especializada em maquilhagem para casamentos.</p>

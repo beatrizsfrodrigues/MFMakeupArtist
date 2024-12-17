@@ -1,15 +1,17 @@
 <template>
   <div class="mainBody">
     <h1>Serviços</h1>
-    <div v-for="service in this.services" class="serviceBorder">
-      <div class="serviceBorder2">
-        <img src="../assets/otherPics/adorn.svg" class="adorn1" alt="" />
-        <div class="serviceContent">
-          <h3 class="serviceName">{{ service.name }}</h3>
-          <img :src="service.mainPicture" alt="imagem" class="serviceImg" />
-          <button class="button">Saber mais</button>
+    <div class="cards">
+      <div v-for="service in this.services" class="serviceBorder">
+        <div class="serviceBorder2">
+          <img src="../assets/otherPics/adorn.svg" class="adorn1" alt="" />
+          <div class="serviceContent">
+            <h3 class="serviceName">{{ service.name }}</h3>
+            <img :src="service.mainPicture" alt="imagem" class="serviceImg" />
+            <button class="button">Saber mais</button>
+          </div>
+          <img src="../assets/otherPics/adorn.svg" class="adorn2" alt="" />
         </div>
-        <img src="../assets/otherPics/adorn.svg" class="adorn2" alt="" />
       </div>
     </div>
   </div>
@@ -36,4 +38,6 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style>
+@import "../assets/css/services.css";
+</style>
