@@ -8,7 +8,7 @@
     </div>
     <div class="section">
       <h1>Galeria</h1>
-      <div id="galleryPhotoDiv">
+      <!-- <div id="galleryPhotoDiv">
         <img
           src="../assets/servicePics/casamento/photo_2024-05-15_19-30-33.jpg"
           alt="imagem"
@@ -24,11 +24,11 @@
           alt="imagem"
           class="galleryImg"
         />
-      </div>
+      </div> -->
     </div>
     <div class="section">
       <h1>Serviços</h1>
-      <div id="contentServiceDiv">
+      <!-- <div id="contentServiceDiv">
         <div class="serviceBorder">
           <div class="serviceBorder2">
             <img src="../assets/otherPics/adorn.svg" class="adorn1" alt="" />
@@ -59,7 +59,7 @@
             <img src="../assets/otherPics/adorn.svg" class="adorn2" alt="" />
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <div class="section">
       <h1>Selos de Recomendação</h1>
