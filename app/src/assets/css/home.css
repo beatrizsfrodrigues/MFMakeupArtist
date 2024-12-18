@@ -1,3 +1,58 @@
+.carousel-container {
+  position: relative;
+  /* max-width: 600px; */
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 1s ease-in-out;
+  height: fit-content;
+}
+
+.carousel-track img {
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+
+.indicator {
+  width: 8px;
+  height: 8px;
+  background-color: #f9e9cf;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background-color: #d871b1;
+}
+
+#awardsDiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 16px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.awards {
+  width: 160px;
+}
+
 @media only screen and (max-width: 600px) {
   #homeDiv {
     display: flex;
@@ -5,7 +60,7 @@
     align-items: center;
     text-align: center;
     height: 100vh;
-    margin-bottom: -200px;
+    margin-bottom: -180px;
   }
 
   #galleryPhotoDiv {

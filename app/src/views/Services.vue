@@ -8,7 +8,16 @@
           <div class="serviceContent">
             <h3 class="serviceName">{{ service.name }}</h3>
             <img :src="service.mainPicture" alt="imagem" class="serviceImg" />
-            <button class="button">Saber mais</button>
+            <router-link
+              :to="{
+                name: 'service',
+                params: {
+                  id: service.id,
+                },
+              }"
+            >
+              <button class="button">Saber mais</button>
+            </router-link>
           </div>
           <img src="../assets/otherPics/adorn.svg" class="adorn2" alt="" />
         </div>

@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Maquilhagem de Noiva",
-      "description": "Não sei que escrever...",
+      "description": "Maquilhagem de Noiva Personalizada: No seu dia especial, a maquilhagem deve refletir a sua beleza única. Oferecemos um serviço completo e exclusivo, com prova de maquilhagem, preparação e cuidados de pele, e uma abordagem personalizada que respeita o seu estilo e necessidades. Inclui: Prova de maquilhagem personalizada, limpeza, preparação e maquilhagem com técnica de longa duração, avaliação do tipo de pele e dicas de cuidados, e atenção exclusiva no dia do casamento. Extras: Amostras de batom e desmaquilhante, esponja utilizada no dia e um guia com dicas de beleza. Serviços adicionais: Maquilhagem disponível para convidadas e maquilhagem simples e natural para o noivo.",
       "main": true,
       "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460185/servicePics/casamento/u2zpk4eq5voua4rxpqre.jpg",
       "pics": [
@@ -36,7 +36,7 @@
     {
       "id": 4,
       "name": "Maquilhagem para TV",
-      "description": "Não há.",
+      "description": "Serviço especializado em maquilhagem para televisão, garantindo um visual impecável sob luzes fortes e câmaras HD. Utilizo técnicas e produtos de alta definição para assegurar uma aparência natural, uniforme e sem brilhos, perfeita para programas, entrevistas ou gravações em estúdio.",
       "main": false,
       "mainPicture": "https://images.unsplash.com/photo-1512462629038-1ff3395c5e5d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "pics": [

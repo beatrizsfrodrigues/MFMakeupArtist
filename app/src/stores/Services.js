@@ -9,6 +9,9 @@ export const useServiceStore = defineStore("service", {
     getServices() {
       return this.services;
     },
+    getServicesMain() {
+      return this.services.filter((service) => service.main == true);
+    },
   },
   actions: {
     addService(service) {

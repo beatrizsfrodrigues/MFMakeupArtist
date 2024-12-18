@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import Services from "../views/Services.vue";
+import Service from "../views/Service.vue";
 import Contacts from "../views/Contacts.vue";
 import About from "../views/About.vue";
 
@@ -17,7 +18,11 @@ const router = createRouter({
       name: "services",
       component: Services,
     },
-
+    {
+      path: "/services/:id",
+      name: "service",
+      component: Service,
+    },
     {
       path: "/contacts",
       name: "contacts",
