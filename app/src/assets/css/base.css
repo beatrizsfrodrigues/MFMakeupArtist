@@ -70,6 +70,10 @@ p {
   font-size: 16px;
 }
 
+.button:active {
+  background: linear-gradient(146deg, #f1d6ee 31.4%, #edb2bb 104.4%);
+}
+
 .section {
   display: grid;
   grid-gap: 32px;

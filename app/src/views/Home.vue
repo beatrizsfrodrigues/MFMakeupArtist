@@ -12,29 +12,14 @@
     </div>
     <div class="section">
       <h1>Galeria</h1>
-      <div class="carousel-container">
-        <!-- Carousel Track -->
-        <div
-          class="carousel-track"
-          :style="{ transform: `translateX(-${currentIndex * 100}%)` }"
-        >
-          <img
-            v-for="(image, index) in images"
-            :key="index"
-            :src="image"
-            alt="Galeria Image"
-            class="serviceImg"
-          />
-        </div>
-
-        <!-- Indicators -->
-        <div class="indicators">
-          <div
-            v-for="(image, index) in images"
-            :key="index"
-            :class="['indicator', { active: index === currentIndex }]"
-            @click="goToSlide(index)"
-          ></div>
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide" v-for="img in this.images">
+            <img :src="img" class="serviceImg" alt="" />
+          </div>
+          <div class="slide" v-for="img in this.images">
+            <img :src="img" class="serviceImg" alt="" />
+          </div>
         </div>
       </div>
     </div>
@@ -66,22 +51,30 @@
     <div class="section">
       <h1>Selos de Recomendação</h1>
       <div id="awardsDiv">
-        <img
-          src="../assets/awards/casamentosPT.png"
-          alt="casamentosPT"
-          class="awards"
-        />
-        <img
-          src="../assets/awards/casamentosPT2.png"
-          alt="casamentosPT2"
-          class="awards"
-        />
-        <img
-          src="../assets/awards/weddingAwards.png"
-          alt="weddingAwards"
-          class="awards"
-        />
-        <img src="../assets/awards/zankyou.png" alt="zankyou" class="awards" />
+        <div>
+          <img
+            src="../assets/awards/casamentosPT.png"
+            alt="casamentosPT"
+            class="awards"
+          />
+          <img
+            src="../assets/awards/casamentosPT2.png"
+            alt="casamentosPT2"
+            class="awards"
+          />
+        </div>
+        <div>
+          <img
+            src="../assets/awards/weddingAwards.png"
+            alt="weddingAwards"
+            class="awards"
+          />
+          <img
+            src="../assets/awards/zankyou.png"
+            alt="zankyou"
+            class="awards"
+          />
+        </div>
       </div>
     </div>
   </div>
@@ -115,12 +108,21 @@ export default {
       this.services = this.serviceStore.getServicesMain;
     }
   },
+  computed: {
+    // Duplicates the images array to create a seamless infinite scroll effect
+    infiniteImages() {
+      return [...this.images, ...this.images];
+    },
+  },
   methods: {
     nextSlide() {
-      this.currentIndex = (this.currentIndex + 1) % this.images.length;
-    },
-    goToSlide(index) {
-      this.currentIndex = index;
+      this.currentIndex++;
+      if (this.currentIndex === this.images.length) {
+        // Reset back to the first image smoothly
+        setTimeout(() => {
+          this.currentIndex = 0;
+        }, 1000); // Matches the transition duration in CSS
+      }
     },
     startRotation() {
       this.timer = setInterval(this.nextSlide, this.interval);

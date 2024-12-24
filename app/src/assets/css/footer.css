@@ -1,5 +1,27 @@
 #footer {
-  height: 300px;
+  height: 200px;
   width: 100vw;
-  background-color: #f6dfe4;
+  background-color: #fff7fe;
+  /* display: flex; */
+  position: relative;
+}
+
+#footerLogo {
+  height: 100px;
+  width: 100px;
+  top: 16px;
+  left: 16px;
+  position: absolute;
+}
+
+#footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 2px;
+  padding-top: 16px;
+}
+
+#rights {
+  text-align: center;
 }
