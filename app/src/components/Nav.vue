@@ -88,7 +88,7 @@ import { useMediaQuery } from "@vueuse/core";
 
 export default {
   setup() {
-    const isMobile = useMediaQuery("(max-width: 600px)");
+    const isMobile = useMediaQuery("(max-width: 800px)");
     return { isMobile };
   },
   data() {

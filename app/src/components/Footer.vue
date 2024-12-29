@@ -36,7 +36,7 @@
         >Sobre mim</router-link
       >
     </div>
-    <p id="rights">© 2025 - All rights reserved</p>
+    <p id="rights">© 2025 - Todos os direitos reservados</p>
   </div>
 </template>
 

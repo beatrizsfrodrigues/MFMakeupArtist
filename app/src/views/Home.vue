@@ -8,7 +8,18 @@
       />
       <h1>Maquilhadora Profissional</h1>
       <h2>Mónica Ferreira</h2>
-      <p>Especializada em maquilhagem para casamentos.</p>
+      <p>
+        Maquilhadora Profissional desde 2013. Especialista em maquilhagem de
+        noiva.
+      </p>
+      <div class="socialDiv">
+        <a href="https://www.facebook.com/mfmakeupartist/">
+          <vue-feather class="socialIcon" type="facebook"></vue-feather>
+        </a>
+        <a href="https://www.instagram.com/mf_makeup_artist/">
+          <vue-feather class="socialIcon" type="instagram"></vue-feather>
+        </a>
+      </div>
     </div>
     <div class="section">
       <h1>Galeria</h1>
