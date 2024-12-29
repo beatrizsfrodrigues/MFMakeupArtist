@@ -84,7 +84,7 @@ export default {
       };
 
       if (this.service_type && this.name && this.number) {
-        if (this.notes.length < 0) {
+        if (this.notes.length == 0) {
           from_notes = "[Nenhuma nota]";
         }
         emailjs
