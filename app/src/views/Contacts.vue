@@ -76,6 +76,11 @@ export default {
   },
   methods: {
     sendEmail() {
+      let from_notes = this.notes;
+      if (from_notes.length == 0) {
+        from_notes = "[Nenhuma nota]";
+      }
+
       const templateParams = {
         serviceType: this.service_type,
         from_name: this.name,
@@ -84,9 +89,6 @@ export default {
       };
 
       if (this.service_type && this.name && this.number) {
-        if (this.notes.length == 0) {
-          from_notes = "[Nenhuma nota]";
-        }
         emailjs
           .send(this.serviceKey, this.templateKey, templateParams, this.userKey)
           .then(
