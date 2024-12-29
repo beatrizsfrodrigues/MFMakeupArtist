@@ -9,6 +9,10 @@
   }
 }
 
+#pfp {
+  width: 250px;
+}
+
 .slider {
   overflow: hidden;
   position: relative;
