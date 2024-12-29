@@ -3,7 +3,7 @@
     <div id="homeDiv">
       <img
         id="pfp"
-        src="https://res.cloudinary.com/dhp2bgd7u/image/upload/v1735495156/pfp_nzo8ea.png"
+        src="https://res.cloudinary.com/dhp2bgd7u/image/upload/v1735495404/pfp_f7jemu.png"
         alt="Profile Image"
       />
       <h1>Maquilhadora Profissional</h1>
