@@ -90,6 +90,24 @@ p {
   font-size: 12px;
 }
 
+.select {
+  border-radius: 16px;
+  border: 2px solid #b3abb2;
+  background: #fff7fe;
+  color: #543b40;
+  /* padding: 12px 16px; */
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 12px;
+  height: 48px;
+}
+
+.optionSelect {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 14px;
+}
+
 textarea {
   resize: none;
 }

@@ -63,28 +63,44 @@
       <h1>Selos de Recomendação</h1>
       <div id="awardsDiv">
         <div>
-          <img
-            src="../assets/awards/casamentosPT.png"
-            alt="casamentosPT"
-            class="awards"
-          />
-          <img
-            src="../assets/awards/casamentosPT2.png"
-            alt="casamentosPT2"
-            class="awards"
-          />
+          <a
+            href="https://www.casamentos.pt/beleza-noivas/monica-ferreira-maquilhadora-profissional--e110265"
+          >
+            <img
+              src="../assets/awards/casamentosPT.png"
+              alt="casamentosPT"
+              class="awards"
+            />
+          </a>
+          <a
+            href="https://www.casamentos.pt/beleza-noivas/monica-ferreira-maquilhadora-profissional--e110265"
+          >
+            <img
+              src="../assets/awards/casamentosPT2.png"
+              alt="casamentosPT2"
+              class="awards"
+            />
+          </a>
         </div>
         <div>
-          <img
-            src="../assets/awards/weddingAwards.png"
-            alt="weddingAwards"
-            class="awards"
-          />
-          <img
-            src="../assets/awards/zankyou.png"
-            alt="zankyou"
-            class="awards"
-          />
+          <a
+            href="https://www.casamentos.pt/beleza-noivas/monica-ferreira-maquilhadora-profissional--e110265"
+          >
+            <img
+              src="../assets/awards/weddingAwards.png"
+              alt="weddingAwards"
+              class="awards"
+            />
+          </a>
+          <a
+            href="https://www.zankyou.pt/f/monica-ferreira-maquilhagem-profissional-598301"
+          >
+            <img
+              src="../assets/awards/zankyou.png"
+              alt="zankyou"
+              class="awards"
+            />
+          </a>
         </div>
       </div>
     </div>

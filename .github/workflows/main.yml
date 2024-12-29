@@ -36,9 +36,10 @@ jobs:
         working-directory: app
 
       - name: Build Project
-        run: npm run build
-        working-directory: app
-      - name: Build the project
+        env:
+          VITE_APP_SERVICE_KEY: ${{ secrets.VITE_APP_SERVICE_KEY }}
+          VITE_APP_TEMPLATE_KEY: ${{ secrets.VITE_APP_TEMPLATE_KEY }}
+          VITE_APP_USER_KEY: ${{ secrets.VITE_APP_USER_KEY }}
         run: npm run build
         working-directory: app
 
