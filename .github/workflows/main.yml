@@ -40,7 +40,11 @@ jobs:
           VITE_APP_SERVICE_KEY: ${{ secrets.VITE_APP_SERVICE_KEY }}
           VITE_APP_TEMPLATE_KEY: ${{ secrets.VITE_APP_TEMPLATE_KEY }}
           VITE_APP_USER_KEY: ${{ secrets.VITE_APP_USER_KEY }}
-        run: npm run build
+        run: |
+          echo "VITE_APP_SERVICE_KEY=${VITE_APP_SERVICE_KEY}"
+          echo "VITE_APP_TEMPLATE_KEY=${VITE_APP_TEMPLATE_KEY}"
+          echo "VITE_APP_USER_KEY=${VITE_APP_USER_KEY}"
+          npm run build
         working-directory: app
 
       - name: Deploy to Vercel
