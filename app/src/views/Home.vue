@@ -3,7 +3,7 @@
     <div id="homeDiv">
       <img
         id="pfp"
-        src="https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734469347/pfp_bn9fkl.svg"
+        src="https://res.cloudinary.com/dhp2bgd7u/image/upload/v1735495156/pfp_nzo8ea.png"
         alt="Profile Image"
       />
       <h1>Maquilhadora Profissional</h1>
@@ -109,8 +109,6 @@ export default {
         "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460200/servicePics/social/cyv5nh9tq01caigoabtt.jpg",
         "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460193/servicePics/fotografia/fwvpgvsqaqsofivfaxf6.jpg",
       ],
-      currentIndex: 0,
-      interval: 3000,
       services: [],
     };
   },
@@ -118,35 +116,6 @@ export default {
     if (this.services == undefined || this.services == "") {
       this.services = this.serviceStore.getServicesMain;
     }
-  },
-  computed: {
-    // Duplicates the images array to create a seamless infinite scroll effect
-    infiniteImages() {
-      return [...this.images, ...this.images];
-    },
-  },
-  methods: {
-    nextSlide() {
-      this.currentIndex++;
-      if (this.currentIndex === this.images.length) {
-        // Reset back to the first image smoothly
-        setTimeout(() => {
-          this.currentIndex = 0;
-        }, 1000); // Matches the transition duration in CSS
-      }
-    },
-    startRotation() {
-      this.timer = setInterval(this.nextSlide, this.interval);
-    },
-    stopRotation() {
-      clearInterval(this.timer);
-    },
-  },
-  mounted() {
-    this.startRotation();
-  },
-  beforeUnmount() {
-    this.stopRotation();
   },
 };
 </script>

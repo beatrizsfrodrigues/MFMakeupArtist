@@ -72,7 +72,9 @@
     </div>
   </div>
   <div v-else id="nav" class="horizontal">
-    <router-link to="/" class="logo"><p>Beatriz</p></router-link>
+    <router-link to="/" v-bind:class="{ active: isActive }" class="logo"
+      ><img src="../assets/otherPics/logo_dark.svg" alt="" id="logo"
+    /></router-link>
 
     <div class="horizontal" id="navLinks">
       <router-link to="/" class="navLink"><p>Início</p></router-link>

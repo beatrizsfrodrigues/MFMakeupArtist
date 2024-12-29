@@ -7,8 +7,13 @@
       "main": true,
       "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460185/servicePics/casamento/u2zpk4eq5voua4rxpqre.jpg",
       "pics": [
-        "../assets/servicePics/noiva1.svg",
-        "../assets/servicePics/noiva2.svg"
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460184/servicePics/casamento/ljuvv3svejkrt5l6btan.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460185/servicePics/casamento/u2zpk4eq5voua4rxpqre.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460186/servicePics/casamento/h3iqdm3lzszztllk8fqr.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460189/servicePics/casamento/ko2n2q00i91bmiqbjzhs.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460189/servicePics/casamento/r31os2q7458twveehowd.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460188/servicePics/casamento/yqt32unote60yhfz7siq.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460185/servicePics/casamento/e8layairuy7mdeonsefb.jpg"
       ]
     },
     {
@@ -18,8 +23,13 @@
       "main": true,
       "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460200/servicePics/social/cyv5nh9tq01caigoabtt.jpg",
       "pics": [
-        "../assets/servicePics/social1.svg",
-        "../assets/servicePics/social2.svg"
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460200/servicePics/social/cyv5nh9tq01caigoabtt.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460201/servicePics/yu1fgrff9iwruxe8su2y.png",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460199/servicePics/social/qyrldthleanxflii82jt.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460199/servicePics/social/ahf72shvia9k5zu7ieqx.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460199/servicePics/social/ihguzmenryhxnh4zeaa1.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460199/servicePics/social/rl0iv3ewntltu9m4hqky.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460198/servicePics/social/sukg9ysuctrf4qyylzll.jpg"
       ]
     },
     {
@@ -29,8 +39,13 @@
       "main": false,
       "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460194/servicePics/fotografia/jhnlbj31kounxdvr33xd.jpg",
       "pics": [
-        "../assets/servicePics/noiva1.svg",
-        "../assets/servicePics/noiva2.svg"
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460191/servicePics/fotografia/rdf9mpwscx1nenmazeqn.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460192/servicePics/fotografia/vrnrwdxwvwwmmxulbgtj.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460192/servicePics/fotografia/gb7rybycebtqyjdkjywy.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460193/servicePics/fotografia/gi1efiuzl35tglnxdkum.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460194/servicePics/fotografia/bsf2ghqi5gbknikr6rr7.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460194/servicePics/fotografia/jhnlbj31kounxdvr33xd.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460192/servicePics/fotografia/m8rnwmm4zrcdyyaobue1.jpg"
       ]
     },
     {
@@ -40,8 +55,7 @@
       "main": false,
       "mainPicture": "https://images.unsplash.com/photo-1512462629038-1ff3395c5e5d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "pics": [
-        "../assets/servicePics/noiva1.svg",
-        "../assets/servicePics/noiva2.svg"
+        "https://images.unsplash.com/photo-1512462629038-1ff3395c5e5d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       ]
     },
     {
@@ -51,8 +65,13 @@
       "main": true,
       "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460204/servicePics/workshop_individual/cfgwmkdze4esq4xf11au.jpg",
       "pics": [
-        "../assets/servicePics/work1.svg",
-        "../assets/servicePics/work2.svg"
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460205/servicePics/workshop_individual/ikwmdeywtriyhjfnmje7.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460204/servicePics/workshop_individual/cfgwmkdze4esq4xf11au.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460204/servicePics/workshop_individual/yywu1omrvkapaay2l81l.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460204/servicePics/workshop_individual/pidea3es17udcbrd8fks.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460205/servicePics/workshop_individual/ikwmdeywtriyhjfnmje7.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460204/servicePics/workshop_individual/cfgwmkdze4esq4xf11au.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460204/servicePics/workshop_individual/yywu1omrvkapaay2l81l.jpg"
       ]
     },
     {
@@ -62,8 +81,13 @@
       "main": false,
       "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460202/servicePics/workshop_grupo/qqk6st7l6ryktfzjxbfz.jpg",
       "pics": [
-        "../assets/servicePics/work1.svg",
-        "../assets/servicePics/work2.svg"
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460202/servicePics/workshop_grupo/kho7kk2qd55kgqt5uslj.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460204/servicePics/workshop_grupo/z9vab9xoa1ewogehvtz7.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460203/servicePics/workshop_grupo/zhlifm7lyeofz5wn47hh.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460203/servicePics/workshop_grupo/fsimqqtug38a9rppljc9.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460203/servicePics/workshop_grupo/e9gk0ft5ohwoyc0uhurp.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460202/servicePics/workshop_grupo/xmgcuihuii6g6b0zg8uv.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460202/servicePics/workshop_grupo/qqk6st7l6ryktfzjxbfz.jpg"
       ]
     },
     {
@@ -73,8 +97,13 @@
       "main": false,
       "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460190/servicePics/coloracao/bpbc8ku8oiqvnkkselxw.jpg",
       "pics": [
-        "../assets/servicePics/work1.svg",
-        "../assets/servicePics/work2.svg"
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460190/servicePics/coloracao/bbtsfpjtt3awm27a7ywe.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460190/servicePics/coloracao/zehfshsqryjupuoxzi4k.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460190/servicePics/coloracao/bpbc8ku8oiqvnkkselxw.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460189/servicePics/coloracao/x9deqrjegee5vrust7nl.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460190/servicePics/coloracao/bbtsfpjtt3awm27a7ywe.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460190/servicePics/coloracao/zehfshsqryjupuoxzi4k.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460190/servicePics/coloracao/bpbc8ku8oiqvnkkselxw.jpg"
       ]
     },
     {
@@ -84,8 +113,13 @@
       "main": true,
       "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460197/servicePics/microblading/wr1crdb40mvftl2n3zei.jpg",
       "pics": [
-        "../assets/servicePics/micro1.svg",
-        "../assets/servicePics/micro2.svg"
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460197/servicePics/microblading/i0ftat4ogdedarinknb8.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460197/servicePics/microblading/rhrnsf7krl9fchyfigix.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460197/servicePics/microblading/wr1crdb40mvftl2n3zei.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460197/servicePics/microblading/i0ftat4ogdedarinknb8.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460197/servicePics/microblading/rhrnsf7krl9fchyfigix.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460197/servicePics/microblading/wr1crdb40mvftl2n3zei.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460197/servicePics/microblading/i0ftat4ogdedarinknb8.jpg"
       ]
     },
     {
@@ -95,8 +129,7 @@
       "main": false,
       "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460191/servicePics/design/hmwlgmfysgrtyr1no1dw.jpg",
       "pics": [
-        "../assets/servicePics/micro1.svg",
-        "../assets/servicePics/micro2.svg"
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460191/servicePics/design/hmwlgmfysgrtyr1no1dw.jpg"
       ]
     },
     {
@@ -106,8 +139,13 @@
       "main": false,
       "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460195/servicePics/lifting/uv8jcynnuvew8vtlsbsd.jpg",
       "pics": [
-        "../assets/servicePics/micro1.svg",
-        "../assets/servicePics/micro2.svg"
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460196/servicePics/lifting/cjrln9iuln9mhmgpra7o.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460195/servicePics/lifting/uv8jcynnuvew8vtlsbsd.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460195/servicePics/lifting/uos408grjrp72gc9ctw7.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460195/servicePics/lifting/w4zwmzzekk2soeppmemk.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460196/servicePics/lifting/cjrln9iuln9mhmgpra7o.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460195/servicePics/lifting/uv8jcynnuvew8vtlsbsd.jpg",
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460195/servicePics/lifting/uos408grjrp72gc9ctw7.jpg"
       ]
     },
     {
@@ -117,8 +155,7 @@
       "main": false,
       "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460192/servicePics/extens%C3%A3o/wdzplrqfbchhdgxrxpmu.jpg",
       "pics": [
-        "../assets/servicePics/micro1.svg",
-        "../assets/servicePics/micro2.svg"
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460192/servicePics/extens%C3%A3o/wdzplrqfbchhdgxrxpmu.jpg"
       ]
     },
     {
@@ -128,8 +165,7 @@
       "main": false,
       "mainPicture": "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460194/servicePics/lamination/yut7g5t3w88wgee1fxex.jpg",
       "pics": [
-        "../assets/servicePics/micro1.svg",
-        "../assets/servicePics/micro2.svg"
+        "https://res.cloudinary.com/dhp2bgd7u/image/upload/v1734460194/servicePics/lamination/yut7g5t3w88wgee1fxex.jpg"
       ]
     }
   ]
