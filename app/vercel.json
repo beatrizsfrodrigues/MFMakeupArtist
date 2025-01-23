@@ -1,12 +1,12 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/app/dist/index.html" }],
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
   "builds": [
     {
       "src": "app/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "app/dist"
-      }
+      "use": "@vercel/node"
     }
-  ]
+  ],
+  "scripts": {
+    "build": "cd app && npm install && npm run build"
+  }
 }
