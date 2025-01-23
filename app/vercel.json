@@ -8,5 +8,8 @@
         "distDir": "app/dist"
       }
     }
-  ]
+  ],
+  "scripts": {
+    "build": "cd app && npm install && npm run build"
+  }
 }
