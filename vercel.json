@@ -1,5 +1,5 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/app/dist/index.html" }],
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
   "builds": [
     {
       "src": "app/package.json",
@@ -8,8 +8,5 @@
         "distDir": "app/dist"
       }
     }
-  ],
-  "scripts": {
-    "build": "cd app && npm install && npm run build"
-  }
+  ]
 }
