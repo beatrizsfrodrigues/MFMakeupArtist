@@ -1,5 +1,5 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/app/distindex.html" }],
+  "rewrites": [{ "source": "/(.*)", "destination": "/app/dist/index.html" }],
   "builds": [
     {
       "src": "app/package.json",
