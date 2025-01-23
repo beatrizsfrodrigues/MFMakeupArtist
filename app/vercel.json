@@ -1,0 +1,15 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+  "builds": [
+    {
+      "src": "app/package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/app/dist/index.html"
+    }
+  ]
+}
