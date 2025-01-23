@@ -1,11 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
-
-const Home = () => import("../views/Home.vue");
-const Services = () => import("../views/Services.vue");
-const Service = () => import("../views/Service.vue");
-const Contacts = () => import("../views/Contacts.vue");
-const About = () => import("../views/About.vue");
-const NotFound = () => import("../views/NotFound.vue");
+import Home from "../views/Home.vue";
+import Services from "../views/Services.vue";
+import Service from "../views/Service.vue";
+import Contacts from "../views/Contacts.vue";
+import About from "../views/About.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -40,12 +38,12 @@ const router = createRouter({
       component: About,
       meta: { title: "About" },
     },
-    {
-      path: "/:catchAll(.*)",
-      name: "not-found",
-      component: NotFound,
-      meta: { title: "Page Not Found" },
-    },
+    // {
+    //   path: "/:catchAll(.*)",
+    //   name: "not-found",
+    //   component: NotFound,
+    //   meta: { title: "Page Not Found" },
+    // },
   ],
   scrollBehavior() {
     return { top: 0 };
