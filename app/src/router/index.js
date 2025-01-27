@@ -16,31 +16,26 @@ const router = createRouter({
       path: "/",
       name: "home",
       component: Home,
-      meta: { title: "Home" },
     },
     {
       path: "/services",
       name: "services",
       component: Services,
-      meta: { title: "Services" },
     },
     {
       path: "/services/:id",
       name: "service",
       component: Service,
-      meta: { title: "Service Details" },
     },
     {
       path: "/contacts",
       name: "contacts",
       component: Contacts,
-      meta: { title: "Contacts" },
     },
     {
       path: "/about",
       name: "about",
       component: About,
-      meta: { title: "About" },
     },
     // {
     //   path: "/:catchAll(.*)",
@@ -52,12 +47,6 @@ const router = createRouter({
   scrollBehavior() {
     return { top: 0 };
   },
-});
-
-// Update document title dynamically
-router.beforeEach((to, from, next) => {
-  document.title = to.meta.title || "Default Title";
-  next();
 });
 
 export default router;

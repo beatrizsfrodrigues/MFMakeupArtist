@@ -1,6 +1,6 @@
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 32px;
 }
 
@@ -28,6 +28,7 @@
 .serviceName {
   width: 200px;
   text-align: center;
+  height: 48px;
 }
 
 .adorn1 {
@@ -48,8 +49,8 @@
 }
 
 .serviceImg {
-  width: 221px;
-  height: 242px;
+  width: 250px;
+  height: 300px;
   border-radius: 8px;
   border: 2px solid #b3abb2;
   object-fit: cover;
@@ -60,4 +61,11 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+  .serviceImg {
+    width: 221px;
+    height: 242px;
+  }
 }

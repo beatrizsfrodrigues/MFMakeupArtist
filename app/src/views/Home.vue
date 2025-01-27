@@ -6,7 +6,7 @@
         src="https://res.cloudinary.com/dhp2bgd7u/image/upload/v1735495404/pfp_f7jemu.png"
         alt="Profile Image"
       />
-      <h1>Maquilhadora Profissional</h1>
+      <h1 id="titleName">Maquilhadora Profissional</h1>
       <h2>Mónica Ferreira</h2>
       <p>
         Maquilhadora Profissional desde 2013. Especialista em maquilhagem de

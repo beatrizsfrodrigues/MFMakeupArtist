@@ -1,54 +1,24 @@
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(
-      calc(-237px * 7)
-    ); /* width of photos+gap * n of photos */
-  }
+#homeDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: calc(100vh - 180px);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#homeDiv > * {
+  margin-bottom: -8px;
 }
 
 #pfp {
-  width: 250px;
+  width: 300px;
 }
 
-.slider {
-  overflow: hidden;
-  position: relative;
-  width: 110%;
-  margin-left: -20px;
-}
-
-.slider::before,
-.slider::after {
-  content: "";
-  height: 100px;
-  position: absolute;
-  width: 200px;
-  z-index: 2;
-}
-
-.slider::after {
-  right: 0;
-  top: 0;
-  transform: rotateZ(180deg);
-}
-
-.slider::before {
-  left: 0;
-  top: 0;
-}
-
-.slide-track {
-  animation: scroll 20s linear infinite; /* Adjusted duration for smoother scrolling */
-  display: flex;
-  width: calc((221px + 16px) * 14); /* Adjusted for duplicated content */
-  gap: 16px;
-}
-
-.slide-track .slide {
-  flex: 0 0 221px;
+#titleName {
+  font-size: 32px;
 }
 
 #awardsDiv {
@@ -83,13 +53,16 @@
 }
 
 @media only screen and (max-width: 600px) {
-  #homeDiv {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    height: 100vh;
-    margin-bottom: -140px;
+  #homeDiv > * {
+    margin-bottom: 0px;
+  }
+
+  #pfp {
+    width: 250px;
+  }
+
+  #titleName {
+    font-size: 24px;
   }
 
   #galleryPhotoDiv {
