@@ -14,7 +14,7 @@
 }
 
 #pfp {
-  width: 300px;
+  height: 70%;
 }
 
 #titleName {
@@ -22,21 +22,18 @@
 }
 
 #awardsDiv {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-#awardsDiv > div {
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 32px;
   align-items: center;
-  gap: 24px;
 }
 
 .awards {
   width: 160px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .socialDiv {
@@ -53,12 +50,17 @@
 }
 
 @media only screen and (max-width: 600px) {
+  #homeDiv {
+    margin-bottom: 20px;
+  }
+
   #homeDiv > * {
     margin-bottom: 0px;
   }
 
   #pfp {
     width: 250px;
+    height: auto;
   }
 
   #titleName {

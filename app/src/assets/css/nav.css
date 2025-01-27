@@ -1,6 +1,6 @@
 #nav {
   background-color: #fff7fe;
-  height: 80px;
+  height: 64px;
   width: 100%;
   padding-top: 4px;
   display: flex;
@@ -26,6 +26,8 @@
 #navLinks {
   display: flex;
   gap: 8px;
+  align-items: center;
+  justify-content: center;
 }
 
 .navLink {
